@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    flex-direction: row;
+}
+
+.main{
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+img{
+    max-height: 800px;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+input:valid {
+    border-color: green;
+}
