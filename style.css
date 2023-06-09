@@ -1,5 +1,4 @@
 body{
-    width: 100vw;
     height: 100vh;
     display: flex;
     flex-wrap: wrap;
@@ -13,13 +12,13 @@ body{
 }
 
 .side_bar{
-flex: 100 0 500px;
+    display: flex;
+    max-width: 500px;
+    height: auto;
 }
 
 #big_image{
     width: 100%;
-    background-position: center;
-    height: auto;
 }
 
 h3{
