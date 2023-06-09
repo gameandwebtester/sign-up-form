@@ -1,34 +1,51 @@
 body{
-    display: flex;
-    flex-direction: row;
-}
-
-.names, .info, .passwords{
+    width: 100vw;
+    height: 100vh;
     display: flex;
     flex-wrap: wrap;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-top: 6%;
+}
+
+.side_bar{
+flex: 100 0 500px;
+}
+
+#big_image{
+    width: 100%;
+    background-position: center;
+    height: auto;
+}
+
+h3{
+    margin-right: 25%;
+}
+
+.names, .info, .passwords, h3{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5%;
+}
+
+.form{
+    background-color: rgb(230, 224, 224);
+}
+
+button{
+    width: 150px;
+    
 }
 
 .first, .last, .email, .phone, .pass, .confirm{
     display: flex;
     flex-direction: column;
     padding-right: 6%;
-    margin-bottom: 40px;
-}
-
-.main{
-    max-width: 75%;
-    padding-left: 3%;
-    padding-right: 3%;
-}
-
-.wallpaper{
-    max-width: 25%;
-    min-height: 500px;
-}
-
-img{
-    max-width:100%;
-    min-height:100%;
+    margin-bottom: 20px;
 }
 
 input:invalid {
@@ -36,5 +53,11 @@ input:invalid {
 }
 
 input:valid {
-    border-color: green;
+    border-color: #E5E7EB;
+    border-radius: 5px;
+}
+
+.bottom {
+    margin-left: 5%;
+    margin-top: 2%;
 }
